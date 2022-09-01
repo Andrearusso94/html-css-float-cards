@@ -6,5 +6,54 @@
 #container{
     width: 80%;
     margin:auto;
+   
+}
+img{
+    max-width: 100%;
+    width: 100px;
+    
+}
+.clearfix::after{
+    content:'';
+    display: table;
+    clear: both;
+}
+header{
+    padding-top: 1rem;
+    padding-bottom: 2.5rem;
+}
+h1{
+    color: darkorchid;
+}
+h1, p{
     text-align: center;
+}
+p{
+    font-family: 'Montserrat' sans-serif;
+}
+.row{
+    background-color: white;
+    padding:2.5rem
+}
+.col_6{
+    background-color: black;
+    color: white;
+    
+    width: calc(100% / 3);
+    float: left;
+    
+}
+.col_6>img{
+    float: left;
+    margin-right: 1.5rem;
+}
+.presentation{
+    margin-top: 1.5rem;
+}
+.name{
+    font-size: 1.5rem;
+    font-style: italic;
+}
+.email{
+    color:mediumblue
 }
