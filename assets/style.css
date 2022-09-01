@@ -4,14 +4,13 @@
     margin: 0;
 }
 #container{
-    width: 80%;
+    width: 75%;
     margin:auto;
    
 }
 img{
     max-width: 100%;
     width: 100px;
-    
 }
 .clearfix::after{
     content:'';
@@ -24,6 +23,7 @@ header{
 }
 h1{
     color: darkorchid;
+    font-family: 'Righteous'
 }
 h1, p{
     text-align: center;
@@ -38,22 +38,32 @@ p{
 .col_6{
     background-color: black;
     color: white;
-    
     width: calc(100% / 3);
     float: left;
-    
+    width: 350px;
+    margin: 25px;
 }
 .col_6>img{
     float: left;
     margin-right: 1.5rem;
 }
 .presentation{
-    margin-top: 1.5rem;
+    margin-top: 1rem;
 }
 .name{
     font-size: 1.5rem;
     font-style: italic;
+    margin-bottom: 1rem;
 }
+
 .email{
     color:mediumblue
+}
+
+footer{
+    color: black;
+    background-color: rgb(72, 72, 192);
+    text-align: center;
+   
+
 }
